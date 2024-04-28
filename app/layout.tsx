@@ -11,21 +11,21 @@ const frameMetadata = getFrameMetadata({
     {
       label: "Install",
       action: "link",
-      target: "https://warpcast.com/~/add-cast-action?url=https%3A%2F%2Flikeroot-git-main-pnizos-projects.vercel.app%2Fapi%2Fallowance",
+      target: "https://warpcast.com/~/add-cast-action?url=https%3A%2F%2Flikeroot-git-main-pnizos-projects.vercel.app%2Fapi%2Fham",
     },
   ],
   image: {
     src: `https://frame-git-main-pnizos-projects.vercel.app/image.png`,
     aspectRatio: "1.91:1",
   },
-  postUrl: `https://warpcast.com/~/add-cast-action?url=https%3A%2F%2Flikeroot-git-main-pnizos-projects.vercel.app%2Fapi%2Fallowance`,
+  postUrl: `https://warpcast.com/~/add-cast-action?url=https%3A%2F%2Flikeroot-git-main-pnizos-projects.vercel.app%2Fapi%2Fham`,
 });
 
 
 //export async function generateMetadata() {
 export const metadata: Metadata = {
-    title: 'RT Degen Check Action installer',
-    description: 'You can easily check $DEGEN amount. Just a simple wrapper of @edit \'s useful API.',
+    title: 'Real-Time $HAM Check Action installer',
+    description: 'You can easily check $HAM amount.',
     other: {
       ...frameMetadata,
     }
