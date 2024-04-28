@@ -15,7 +15,7 @@ const frameMetadata = getFrameMetadata({
     },
   ],
   image: {
-    src: `https://frame-git-main-pnizos-projects.vercel.app/image.png`,
+    src: `https://pnizo-ham-frame.vercel.app/ham_cover.png`,
     aspectRatio: "1.91:1",
   },
   postUrl: `https://warpcast.com/~/add-cast-action?url=https%3A%2F%2Flikeroot-git-main-pnizos-projects.vercel.app%2Fapi%2Fham`,
